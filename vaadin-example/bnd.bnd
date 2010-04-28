@@ -1,0 +1,14 @@
+Private-Package: com.example.vaadin
+Service-Component: com.example.vaadin.ExampleAppFactory
+
+-buildpath: com.vaadin,\
+	vaadinbridge;version=snapshot,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation
+-runbundles: com.vaadin,\
+	lib.component-runtime,\
+	lib.http-runtime,\
+	vaadinbridge;version=snapshot,\
+	org.osgi.impl.service.log
+-runproperties: org.eclipse.equinox.http.jetty.http.port=8080,\
+	osgi.console=

@@ -1,0 +1,6 @@
+org.eclipse.equinox.http.jetty
+org.eclipse.equinox.http.servlet
+org.mortbay.jetty.util
+org.mortbay.jetty.server
+org.apache.commons.logging
+javax.servlet

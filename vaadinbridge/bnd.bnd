@@ -1,0 +1,9 @@
+Bundle-Activator: org.example.utils.vaadinbridge.internal.VaadinBridgeActivator
+Bundle-Version: 0.0.1
+Export-Package: org.example.utils.vaadinbridge;version=${Bundle-Version}
+Private-Package: org.example.utils.vaadinbridge.internal
+
+-buildpath: com.vaadin,\
+	javax.servlet,\
+	osgi.cmpn,\
+	osgi.core
